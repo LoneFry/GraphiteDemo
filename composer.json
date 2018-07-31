@@ -1,0 +1,29 @@
+{
+  "name": "graphite/demo",
+  "description": "Graphite Demonstrative Repo",
+  "homepage": "https://github.com/LoneFry/GraphiteDemo",
+  "require": {
+    "php": "^7.0",
+    "graphite/core": "*",
+    "graphite/barrel": "*",
+    "graphite/pencil": "*"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require-dev": {
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "../Graphite"
+    },
+    {
+      "type": "vcs",
+      "url": "../GraphiteBarrel"
+    },
+    {
+      "type": "vcs",
+      "url": "../GraphitePencil"
+    }
+  ]
+}
